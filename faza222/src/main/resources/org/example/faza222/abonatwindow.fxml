@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="577.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.faza222.controller.ClientController">
+    <children>
+        <TableView fx:id="table11" layoutX="14.0" layoutY="38.0" prefHeight="242.0" prefWidth="410.0">
+            <columns>
+                <TableColumn fx:id="col1" prefWidth="75.0" text="Make" />
+                <TableColumn fx:id="col2" prefWidth="75.0" text="Model" />
+                <TableColumn fx:id="col3" prefWidth="75.0" text="Fuel" />
+                <TableColumn fx:id="col4" prefWidth="75.0" text="Year" />
+                <TableColumn fx:id="col5" prefWidth="75.0" text="Km" />
+                <TableColumn fx:id="col6" prefWidth="75.0" text="Color" />
+                <TableColumn fx:id="col7" prefWidth="75.0" text="Seats" />
+                <TableColumn fx:id="col8" prefWidth="75.0" text="Power" />
+            </columns>
+        </TableView>
+        <TableView fx:id="table22" layoutX="14.0" layoutY="320.0" prefHeight="242.0" prefWidth="410.0">
+            <columns>
+                <TableColumn fx:id="col9" prefWidth="75.0" text="Make" />
+                <TableColumn fx:id="col10" prefWidth="75.0" text="Model" />
+                <TableColumn fx:id="col11" prefWidth="75.0" text="Fuel" />
+                <TableColumn fx:id="col12" prefWidth="75.0" text="Year" />
+                <TableColumn fx:id="col13" prefWidth="75.0" text="Km" />
+                <TableColumn fx:id="col14" prefWidth="75.0" text="Color" />
+                <TableColumn fx:id="col15" prefWidth="75.0" text="Seats" />
+                <TableColumn fx:id="col16" prefWidth="75.0" text="Power" />
+            </columns>
+        </TableView>
+        <Text layoutX="14.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available rental cars" wrappingWidth="151.75390243530273">
+            <font>
+                <Font name="Tw Cen MT Condensed" size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="14.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currently rented cars">
+            <font>
+                <Font name="Tw Cen MT Condensed" size="24.0" />
+            </font>
+        </Text>
+        <Button fx:id="ClientLogoutButton" layoutX="582.0" layoutY="537.0" mnemonicParsing="false" onAction="#handleClientLogout" text="LOGOUT" />
+      <Button layoutX="454.0" layoutY="121.0" mnemonicParsing="false" text="Rent car" onAction="#handleRentAction">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="ClientRefresh" layoutX="514.0" layoutY="537.0" mnemonicParsing="false" onAction="#handleClientRefresh" text="Refresh" />
+      <DatePicker fx:id="ClientDatePicker" layoutX="454.0" layoutY="38.0" />
+      <TextField fx:id="ClientNote" layoutX="454.0" layoutY="80.0" promptText="Nota" />
+    </children>
+</AnchorPane>

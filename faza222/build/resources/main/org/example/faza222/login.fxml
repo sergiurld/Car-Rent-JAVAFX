@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="224.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.faza222.controller.LoginController">
+   <children>
+      <ChoiceBox fx:id="choiceBoxLogin" layoutX="21.0" layoutY="165.0" prefHeight="26.0" prefWidth="186.0" />
+      <TextField fx:id="usernameFieldLogin" layoutX="21.0" layoutY="92.0" prefHeight="26.0" prefWidth="186.0" promptText="Username" />
+      <PasswordField fx:id="passwordFieldLogin" layoutX="21.0" layoutY="127.0" prefHeight="26.0" prefWidth="186.0" promptText="Password" />
+      <Button fx:id="buttonLogin" layoutX="21.0" layoutY="204.0" mnemonicParsing="false" text="Login" onAction="#handleLogin" />
+      <Button fx:id="buttonCreateNewUserLogin" layoutX="107.0" layoutY="204.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="102.0" text="Create new user" textAlignment="CENTER" onAction="#handleSignupFromLogin"/>
+      <Text layoutX="69.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome " wrappingWidth="90.40000000000009">
+         <font>
+            <Font name="Bernard MT Condensed" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

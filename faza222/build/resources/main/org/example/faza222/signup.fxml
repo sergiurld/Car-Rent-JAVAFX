@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="224.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.faza222.controller.SignupController">
+    <children>
+        <ChoiceBox fx:id="choiceBoxSignup" layoutX="21.0" layoutY="322.0" prefHeight="26.0" prefWidth="186.0" />
+        <TextField fx:id="usernameFieldSignup" layoutX="21.0" layoutY="211.0" prefHeight="26.0" prefWidth="186.0" promptText="Username" />
+        <PasswordField fx:id="passwordFieldSignup" layoutX="21.0" layoutY="247.0" prefHeight="26.0" prefWidth="186.0" promptText="Password" />
+        <Button layoutX="21.0" layoutY="360.0" mnemonicParsing="false" text="Sign-up" onAction="#handleSignup"/>
+        <Button layoutX="108.0" layoutY="360.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="102.0" text="Back to Login" textAlignment="CENTER" onAction="#handleBackToLogin" />
+        <Text layoutX="69.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome " wrappingWidth="90.40000000000009">
+            <font>
+                <Font name="Bernard MT Condensed" size="24.0" />
+            </font>
+        </Text>
+      <PasswordField fx:id="passwordFieldSignup2" layoutX="21.0" layoutY="284.0" prefHeight="26.0" prefWidth="186.0" promptText="Re-enter Password " />
+      <TextField fx:id="cnpFieldSignup" layoutX="21.0" layoutY="176.0" prefHeight="26.0" prefWidth="186.0" promptText="CNP" />
+      <TextField fx:id="phoneFieldSignup" layoutX="21.0" layoutY="140.0" prefHeight="26.0" prefWidth="186.0" promptText="Phone" />
+      <TextField fx:id="addressFieldSignup" layoutX="21.0" layoutY="105.0" prefHeight="26.0" prefWidth="186.0" promptText="Address" />
+      <TextField fx:id="nameFieldSignup" layoutX="21.0" layoutY="69.0" prefHeight="26.0" prefWidth="186.0" promptText="Name" />
+    </children>
+</AnchorPane>

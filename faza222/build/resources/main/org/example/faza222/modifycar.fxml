@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="277.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.faza222.controller.ModifyCarController">
+    <children>
+        <Text layoutX="57.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modify a car from your fleet" textAlignment="CENTER" wrappingWidth="287.13671875">
+            <font>
+                <Font name="Tw Cen MT" size="24.0" />
+            </font>
+        </Text>
+        <TextField fx:id="Make" layoutX="37.0" layoutY="70.0" promptText="Make" />
+        <TextField fx:id="Model" layoutX="37.0" layoutY="105.0" promptText="Model" />
+        <TextField fx:id="Fuel" layoutX="37.0" layoutY="140.0" promptText="Fuel" />
+        <TextField fx:id="Vin" layoutX="37.0" layoutY="173.0" promptText="VIN" />
+        <TextField fx:id="Year" layoutX="37.0" layoutY="209.0" promptText="Year" />
+        <TextField fx:id="Km" layoutX="215.0" layoutY="173.0" promptText="Km" />
+        <TextField fx:id="Color" layoutX="215.0" layoutY="70.0" promptText="Color" />
+        <TextField fx:id="Seats" layoutX="215.0" layoutY="105.0" promptText="Seats Number" />
+        <TextField fx:id="Power" layoutX="215.0" layoutY="140.0" promptText="Power: HP" />
+      <Button fx:id="ModifyCarButton" layoutX="215.0" layoutY="208.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="99.0" text="MODIFY CAR" onAction="#handleModifyCarFromAdmin">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+    </children>
+</AnchorPane>
